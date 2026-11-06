@@ -1,0 +1,291 @@
+.season-schedule {
+  display: grid;
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.season-next {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 12px;
+}
+
+.season-next strong {
+  font-family: var(--font-display);
+  font-size: var(--step-head);
+  font-weight: 400;
+  line-height: 1;
+}
+
+.season-schedule ol {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 10px 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: var(--step-body);
+  line-height: 1.3;
+}
+
+.season-schedule li {
+  display: grid;
+}
+
+.season-date {
+  color: var(--muted);
+  font-size: var(--step-small);
+}
+
+.season-past {
+  text-decoration: line-through;
+}
+
+.season-small {
+  color: inherit;
+  font-size: var(--step-small);
+  line-height: 1.35;
+}
+
+.season-empty p {
+  max-width: 44em;
+  font-size: var(--step-lead);
+  line-height: 1.3;
+}
+
+.season-board-note {
+  margin-bottom: 18px;
+}
+
+.contest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr));
+  gap: clamp(24px, 3vw, 44px) clamp(32px, 5vw, 72px);
+}
+
+.contest h3 {
+  margin-bottom: 4px;
+  font-family: var(--font-display);
+  font-size: var(--step-lead);
+}
+
+.contest-verdict {
+  font-weight: 500;
+}
+
+.contest-nominees {
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contest-nominees li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-block: 6px;
+}
+
+.contest-nominees img,
+.contest-no-poster {
+  flex: none;
+  width: 44px;
+  height: 66px;
+  object-fit: cover;
+  background: var(--ink-soft);
+}
+
+.contest-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.contest-line {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.contest-name {
+  min-width: 0;
+  line-height: 1.2;
+}
+
+.contest-won {
+  font-weight: 500;
+}
+
+.contest-odds {
+  flex: none;
+  font-weight: 500;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.contest-track {
+  display: block;
+  margin-top: 4px;
+  background: rgb(23 16 15 / 0.1);
+}
+
+.contest-fill {
+  display: block;
+  height: 8px;
+  background: var(--ink-soft);
+}
+
+/* Gold is earned: only a real winner gets it, never a forecast. */
+.contest-fill-won {
+  background: var(--gold-deep);
+}
+
+.season-record {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 16px;
+  row-gap: 24px;
+  align-items: center;
+  margin-inline: var(--margin);
+}
+
+.season-record-text {
+  grid-column: 1 / span 6;
+  display: grid;
+  gap: 12px;
+}
+
+.season-record .calibration {
+  grid-column: 8 / -1;
+}
+
+.season-big {
+  font-family: var(--font-display);
+  font-size: var(--step-marquee);
+  line-height: 0.85;
+}
+
+.season-lead {
+  font-size: var(--step-lead);
+  line-height: 1.25;
+}
+
+.season-table-scroll {
+  overflow-x: auto;
+}
+
+.season-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.season-table th,
+.season-table td {
+  padding: 9px 12px 9px 0;
+  text-align: right;
+  font-weight: 400;
+  border-bottom: 1px solid rgb(23 16 15 / 0.18);
+}
+
+.season-table th:first-child {
+  text-align: left;
+}
+
+.season-table thead th {
+  font-size: var(--step-small);
+  color: var(--ink-soft);
+}
+
+.season-table tbody td:nth-child(2) {
+  font-weight: 500;
+}
+
+.season-table + .season-small,
+.season-table-scroll + .season-small {
+  margin-top: 12px;
+}
+
+.season-picks {
+  padding-block: 10px;
+}
+
+.season-picks summary {
+  width: fit-content;
+  cursor: pointer;
+  font-family: var(--font-display);
+  font-size: var(--step-lead);
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.season-picks ul {
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.season-picks li {
+  display: grid;
+  grid-template-columns: 3.2rem 4rem 1fr;
+  gap: 2px 8px;
+  padding-block: 5px;
+  line-height: 1.3;
+}
+
+.pick-year {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.pick-right .pick-status {
+  font-weight: 500;
+}
+
+.pick-wrong .pick-status {
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.season-calibration-table {
+  margin: 24px var(--margin) 0;
+}
+
+.season-how {
+  columns: 2 380px;
+  column-gap: clamp(32px, 5vw, 72px);
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.season-how li {
+  padding-block: 4px;
+  break-inside: avoid;
+}
+
+.calibration .chart {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.calibration figcaption {
+  text-align: right;
+}
+
+@media (max-width: 900px) {
+  .season-record {
+    display: block;
+  }
+
+  .season-record .calibration {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .season-picks li {
+    grid-template-columns: 3rem 1fr;
+  }
+
+  .season-picks li > :last-child {
+    grid-column: 1 / -1;
+  }
+}

@@ -179,3 +179,18 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Every Envelope
+node_modules/
+*.tsbuildinfo
+.vercel/
+data/build/
+data/cache/
+.env.local
+.taste-skill/
+data/enrich/
+public/data/
+
+.claude
+
+# The Python lib/ rule above would otherwise hide the site's source
+!src/lib/

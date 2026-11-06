@@ -1,0 +1,76 @@
+.encore {
+  padding: var(--section-gap) var(--margin);
+  background: var(--oxblood);
+  color: var(--ivory);
+  scroll-margin-top: 0;
+}
+
+.encore h2 {
+  font-size: var(--step-marquee);
+  letter-spacing: -0.03em;
+}
+
+.encore-lead {
+  margin-top: 24px;
+  max-width: 34em;
+  font-size: var(--step-lead);
+  line-height: 1.3;
+}
+
+.encore-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 12px;
+  margin-top: clamp(32px, 4vw, 56px);
+}
+
+.encore-form label {
+  flex-basis: 100%;
+}
+
+.encore-form input {
+  width: 7ch;
+  padding: 0.35rem 0.6rem;
+  border: 0;
+  background: var(--ivory);
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: var(--step-title);
+  line-height: 1;
+}
+
+.encore-form input::placeholder {
+  color: var(--ink-soft);
+}
+
+.encore-form .button {
+  min-height: 44px;
+  background: var(--gold);
+  color: var(--ink);
+}
+
+.encore-form .button:hover {
+  background: var(--gold-bright);
+}
+
+.encore-form .button:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.encore-search {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.encore-error,
+.encore-share {
+  margin-top: 12px;
+  font-size: var(--step-body);
+}

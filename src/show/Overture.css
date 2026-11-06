@@ -1,0 +1,118 @@
+.overture {
+  padding: var(--section-gap) var(--margin);
+  background: var(--velvet-black);
+  scroll-margin-top: 0;
+}
+
+.overture-head {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 16px;
+  align-items: end;
+  margin-bottom: clamp(40px, 6vw, 80px);
+}
+
+.overture-head h2 {
+  grid-column: 1 / span 6;
+  font-size: var(--step-marquee);
+  letter-spacing: -0.03em;
+}
+
+.overture-statement {
+  grid-column: 7 / -1;
+  font-size: var(--step-lead);
+  line-height: 1.25;
+}
+
+.lights canvas {
+  --data-won: #d4af5a;
+  --data-nominated: #8f867a;
+}
+
+.lights-axis {
+  position: relative;
+  height: 28px;
+  margin-top: 8px;
+  font-size: var(--step-small);
+  color: var(--muted);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.lights-axis span {
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.lights-axis span:first-child {
+  transform: none;
+}
+
+.lights-axis span:last-child {
+  transform: translateX(-100%);
+}
+
+/* A printed programme: one sheet of paper with its running order. */
+.programme-sheet {
+  margin-top: var(--section-gap);
+  padding: clamp(24px, 4vw, 56px);
+  background: var(--ivory);
+  color: var(--ink);
+  border-top: 5px dotted var(--velvet-black);
+}
+
+.programme-sheet h3 {
+  font-size: var(--step-head);
+  margin-bottom: clamp(24px, 3vw, 40px);
+}
+
+.programme-sheet ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.programme-sheet a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 2px 24px;
+  padding-block: 12px;
+  text-decoration: none;
+  transition: transform 160ms ease;
+}
+
+.programme-sheet a:hover {
+  transform: translateX(6px);
+}
+
+.programme-sheet a:hover .programme-title {
+  color: var(--curtain);
+}
+
+.programme-title {
+  font-family: var(--font-display);
+  font-size: var(--step-title);
+  line-height: 1;
+  text-transform: uppercase;
+  transition: color 160ms ease;
+}
+
+.programme-question {
+  font-size: var(--step-lead);
+  line-height: 1.2;
+}
+
+@media (max-width: 760px) {
+  .overture-head {
+    display: block;
+  }
+
+  .overture-head h2 {
+    font-size: 21vw;
+  }
+
+  .overture-statement {
+    margin-top: 20px;
+  }
+}

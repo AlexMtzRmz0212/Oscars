@@ -1,0 +1,50 @@
+.era-bars {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-size: var(--step-small);
+}
+
+.era-bars li {
+  display: grid;
+  justify-items: center;
+  min-width: 0;
+  text-align: center;
+}
+
+.era-bar-track {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: clamp(44px, 8svh, 72px);
+  width: 100%;
+}
+
+.era-bar-value {
+  font-size: var(--step-body);
+  line-height: 1.2;
+}
+
+.era-bar-fill {
+  display: block;
+  width: min(24px, 60%);
+  max-height: calc(100% - 22px);
+  background: var(--data-won);
+  border-radius: var(--radius-data) var(--radius-data) 0 0;
+  transition: height 420ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.era-bar-label {
+  margin-top: 4px;
+  color: var(--muted);
+}
+
+.era-bar-detail {
+  color: var(--muted);
+}

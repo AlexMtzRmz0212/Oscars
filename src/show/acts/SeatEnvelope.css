@@ -1,0 +1,116 @@
+.seat-envelope {
+  width: min(560px, calc(100% - 24px));
+  max-width: none;
+  max-height: none;
+  padding: 0;
+  border: 0;
+  background: none;
+  overflow: visible;
+}
+
+.seat-envelope::backdrop {
+  background: rgb(14 10 11 / 0.82);
+}
+
+.seat-envelope-body {
+  position: relative;
+  padding-bottom: 72px;
+  overflow: hidden;
+  animation: envelope-arrive 280ms ease-out;
+}
+
+.seat-card {
+  position: relative;
+  max-height: min(70svh, 620px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: clamp(20px, 4vw, 32px) clamp(20px, 4vw, 32px) 84px;
+  margin: 0 clamp(10px, 2.5vw, 20px);
+  background: var(--ivory);
+  color: var(--ink);
+  animation: card-rise 520ms cubic-bezier(0.2, 0.8, 0.2, 1) 120ms backwards;
+}
+
+.seat-card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.seat-card-head h2 {
+  font-size: var(--step-title);
+  line-height: 0.92;
+}
+
+.seat-card-close {
+  flex: none;
+}
+
+.seat-card-count {
+  margin-top: 10px;
+  font-size: var(--step-lead);
+  color: var(--ink);
+}
+
+.seat-card-films {
+  list-style: none;
+  margin: 18px 0 0;
+  padding: 0;
+}
+
+.seat-card-films li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 6px 0;
+}
+
+.seat-card-films img,
+.seat-card-no-poster {
+  flex: none;
+  width: 44px;
+  height: 66px;
+  object-fit: cover;
+  background: var(--ink-soft);
+}
+
+.seat-card-title {
+  flex: 1;
+}
+
+.seat-card-year {
+  flex: none;
+  color: var(--ink-soft);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.seat-card-more {
+  margin-top: 14px;
+  color: var(--ink-soft);
+}
+
+/* The envelope's pocket, cut in a shallow V, with the card rising out of it. */
+.seat-pocket {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 132px;
+  background: var(--gold);
+  clip-path: polygon(0 0, 50% 45%, 100% 0, 100% 100%, 0 100%);
+  pointer-events: none;
+}
+
+@keyframes envelope-arrive {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+}
+
+@keyframes card-rise {
+  from {
+    transform: translateY(70%);
+  }
+}

@@ -1,0 +1,850 @@
+award,film_year,id,name
+bafta_actor,1996,nm0001691,Geoffrey Rush
+bafta_actor,1998,nm0000905,Roberto Benigni
+bafta_actor,1999,nm0000228,Kevin Spacey
+bafta_actor,2001,nm0000128,Russell Crowe
+bafta_actor,2002,nm0000358,Daniel Day-Lewis
+bafta_actor,2003,nm0000195,Bill Murray
+bafta_actor,2004,nm0004937,Jamie Foxx
+bafta_actor,2005,nm0000450,Philip Seymour Hoffman
+bafta_actor,2006,nm0001845,Forest Whitaker
+bafta_actor,2007,nm0000358,Daniel Day-Lewis
+bafta_actor,2008,nm0000620,Mickey Rourke
+bafta_actor,2009,nm0000147,Colin Firth
+bafta_actor,2010,nm0000147,Colin Firth
+bafta_actor,2011,nm0241121,Jean Dujardin
+bafta_actor,2012,nm0000358,Daniel Day-Lewis
+bafta_actor,2013,nm0252230,Chiwetel Ejiofor
+bafta_actor,2014,nm1519666,Eddie Redmayne
+bafta_actor,2015,nm0000138,Leonardo DiCaprio
+bafta_actor,2016,nm0000729,Casey Affleck
+bafta_actor,2017,nm0000198,Gary Oldman
+bafta_actor,2018,nm1785339,Rami Malek
+bafta_actor,2019,nm0001618,Joaquin Phoenix
+bafta_actor,2020,nm0000164,Anthony Hopkins
+bafta_actor,2021,nm0000226,Will Smith
+bafta_actor,2022,nm2581521,Austin Butler
+bafta_actor,2023,nm0614165,Cillian Murphy
+bafta_actor,2024,nm0004778,Adrien Brody
+bafta_actress,1995,nm0000668,Emma Thompson
+bafta_actress,1996,nm0000950,Brenda Blethyn
+bafta_actress,1997,nm0001132,Judi Dench
+bafta_actress,1998,nm0000949,Cate Blanchett
+bafta_actress,1999,nm0000906,Annette Bening
+bafta_actress,2000,nm0000210,Julia Roberts
+bafta_actress,2001,nm0001132,Judi Dench
+bafta_actress,2002,nm0000173,Nicole Kidman
+bafta_actress,2004,nm0001767,Imelda Staunton
+bafta_actress,2005,nm0000702,Reese Witherspoon
+bafta_actress,2006,nm0000545,Helen Mirren
+bafta_actress,2007,nm0182839,Marion Cotillard
+bafta_actress,2008,nm0000701,Kate Winslet
+bafta_actress,2009,nm1659547,Carey Mulligan
+bafta_actress,2010,nm0000204,Natalie Portman
+bafta_actress,2011,nm0000658,Meryl Streep
+bafta_actress,2012,nm0728938,Emmanuelle Riva
+bafta_actress,2013,nm0000949,Cate Blanchett
+bafta_actress,2014,nm0000194,Julianne Moore
+bafta_actress,2015,nm0488953,Brie Larson
+bafta_actress,2016,nm1297015,Emma Stone
+bafta_actress,2017,nm0000531,Frances McDormand
+bafta_actress,2018,nm1469236,Olivia Colman
+bafta_actress,2019,nm0000250,Renée Zellweger
+bafta_actress,2020,nm0000531,Frances McDormand
+bafta_actress,2022,nm0000949,Cate Blanchett
+bafta_actress,2023,nm1297015,Emma Stone
+bafta_actress,2024,nm5700898,Mikey Madison
+bafta_actress,2025,nm2976580,Jessie Buckley
+bafta_director,1995,nm0705535,Michael Radford
+bafta_director,1996,nm0001054,Joel Coen
+bafta_director,1998,nm0001837,Peter Weir
+bafta_director,2000,nm0000487,Ang Lee
+bafta_director,2001,nm0001392,Peter Jackson
+bafta_director,2002,nm0000591,Roman Polanski
+bafta_director,2003,nm0001837,Peter Weir
+bafta_director,2004,nm0005139,Mike Leigh
+bafta_director,2005,nm0000487,Ang Lee
+bafta_director,2006,nm0339030,Paul Greengrass
+bafta_director,2007,nm0001053,Ethan Coen
+bafta_director,2007,nm0001054,Joel Coen
+bafta_director,2008,nm0000965,Danny Boyle
+bafta_director,2009,nm0000941,Kathryn Bigelow
+bafta_director,2010,nm0000399,David Fincher
+bafta_director,2011,nm0371890,Michel Hazanavicius
+bafta_director,2013,nm0190859,Alfonso Cuarón
+bafta_director,2014,nm0000500,Richard Linklater
+bafta_director,2015,nm0327944,Alejandro G. Iñárritu
+bafta_director,2016,nm3227090,Damien Chazelle
+bafta_director,2017,nm0868219,Guillermo del Toro
+bafta_director,2018,nm0190859,Alfonso Cuarón
+bafta_director,2019,nm0005222,Sam Mendes
+bafta_director,2020,nm2125482,Chloé Zhao
+bafta_director,2021,nm0001005,Jane Campion
+bafta_director,2023,nm0634240,Christopher Nolan
+bafta_director,2024,nm1227232,Brady Corbet
+bafta_director,2025,nm0000759,Paul Thomas Anderson
+bafta_film,1995,tt0114388,Sense and Sensibility
+bafta_film,1996,tt0116209,The English Patient
+bafta_film,1997,tt0119164,The Full Monty
+bafta_film,1998,tt0138097,Shakespeare in Love
+bafta_film,1999,tt0169547,American Beauty
+bafta_film,2000,tt0172495,Gladiator
+bafta_film,2001,tt0120737,The Lord of the Rings: The Fellowship of the Ring
+bafta_film,2002,tt0253474,The Pianist
+bafta_film,2003,tt0167260,The Lord of the Rings: The Return of the King
+bafta_film,2004,tt0338751,The Aviator
+bafta_film,2005,tt0388795,Brokeback Mountain
+bafta_film,2006,tt0436697,The Queen
+bafta_film,2007,tt0783233,Atonement
+bafta_film,2008,tt1010048,Slumdog Millionaire
+bafta_film,2009,tt0887912,The Hurt Locker
+bafta_film,2010,tt1504320,The King's Speech
+bafta_film,2011,tt1655442,The Artist
+bafta_film,2012,tt1024648,Argo
+bafta_film,2013,tt2024544,12 Years a Slave
+bafta_film,2014,tt1065073,Boyhood
+bafta_film,2015,tt1663202,The Revenant
+bafta_film,2016,tt3783958,La La Land
+bafta_film,2017,tt5027774,"Three Billboards outside Ebbing, Missouri"
+bafta_film,2018,tt6155172,Roma
+bafta_film,2019,tt8579674,1917
+bafta_film,2020,tt9770150,Nomadland
+bafta_film,2021,tt10293406,The Power of the Dog
+bafta_film,2022,tt1016150,All Quiet on the Western Front
+bafta_film,2023,tt15398776,Oppenheimer
+bafta_film,2024,tt20215234,Conclave
+bafta_film,2025,tt30144839,One Battle after Another
+bafta_supporting_actor,1995,nm0000619,Tim Roth
+bafta_supporting_actor,1998,nm0001691,Geoffrey Rush
+bafta_supporting_actor,1999,nm0000179,Jude Law
+bafta_supporting_actor,2000,nm0001125,Benicio Del Toro
+bafta_supporting_actor,2001,nm0000980,Jim Broadbent
+bafta_supporting_actor,2002,nm0000686,Christopher Walken
+bafta_supporting_actor,2004,nm0654110,Clive Owen
+bafta_supporting_actor,2005,nm0350453,Jake Gyllenhaal
+bafta_supporting_actor,2006,nm0000273,Alan Arkin
+bafta_supporting_actor,2007,nm0000849,Javier Bardem
+bafta_supporting_actor,2008,nm0005132,Heath Ledger
+bafta_supporting_actor,2009,nm0910607,Christoph Waltz
+bafta_supporting_actor,2010,nm0001691,Geoffrey Rush
+bafta_supporting_actor,2011,nm0001626,Christopher Plummer
+bafta_supporting_actor,2012,nm0910607,Christoph Waltz
+bafta_supporting_actor,2013,nm5831542,Barkhad Abdi
+bafta_supporting_actor,2014,nm0799777,J.K. Simmons
+bafta_supporting_actor,2015,nm0753314,Mark Rylance
+bafta_supporting_actor,2016,nm2353862,Dev Patel
+bafta_supporting_actor,2017,nm0005377,Sam Rockwell
+bafta_supporting_actor,2018,nm0991810,Mahershala Ali
+bafta_supporting_actor,2019,nm0000093,Brad Pitt
+bafta_supporting_actor,2020,nm2257207,Daniel Kaluuya
+bafta_supporting_actor,2021,nm1319274,Troy Kotsur
+bafta_supporting_actor,2022,nm4422686,Barry Keoghan
+bafta_supporting_actor,2023,nm0000375,Robert Downey Jr.
+bafta_supporting_actor,2024,nm0001085,Kieran Culkin
+bafta_supporting_actor,2025,nm0000576,Sean Penn
+bafta_supporting_actress,1995,nm0000701,Kate Winslet
+bafta_supporting_actress,1996,nm0000300,Juliette Binoche
+bafta_supporting_actress,1998,nm0001132,Judi Dench
+bafta_supporting_actress,2000,nm0910278,Julie Walters
+bafta_supporting_actress,2001,nm0000124,Jennifer Connelly
+bafta_supporting_actress,2002,nm0001876,Catherine Zeta-Jones
+bafta_supporting_actress,2003,nm0000250,Renée Zellweger
+bafta_supporting_actress,2004,nm0000949,Cate Blanchett
+bafta_supporting_actress,2006,nm1617685,Jennifer Hudson
+bafta_supporting_actress,2007,nm0842770,Tilda Swinton
+bafta_supporting_actress,2008,nm0004851,Penélope Cruz
+bafta_supporting_actress,2009,nm0594898,Mo'Nique
+bafta_supporting_actress,2010,nm0000307,Helena Bonham Carter
+bafta_supporting_actress,2011,nm0818055,Octavia Spencer
+bafta_supporting_actress,2012,nm0004266,Anne Hathaway
+bafta_supporting_actress,2013,nm2225369,Jennifer Lawrence
+bafta_supporting_actress,2014,nm0000099,Patricia Arquette
+bafta_supporting_actress,2015,nm0000701,Kate Winslet
+bafta_supporting_actress,2016,nm0205626,Viola Davis
+bafta_supporting_actress,2017,nm0005049,Allison Janney
+bafta_supporting_actress,2018,nm0001838,Rachel Weisz
+bafta_supporting_actress,2019,nm0000368,Laura Dern
+bafta_supporting_actress,2020,nm0950926,Yuh-Jung Youn
+bafta_supporting_actress,2021,nm3663196,Ariana DeBose
+bafta_supporting_actress,2022,nm0174403,Kerry Condon
+bafta_supporting_actress,2023,nm5007768,Da'Vine Joy Randolph
+bafta_supporting_actress,2024,nm0757855,Zoe Saldaña
+bafta_supporting_actress,2025,nm2148911,Wunmi Mosaku
+cc_actor,1996,nm0001691,Geoffrey Rush
+cc_actor,1997,nm0000197,Jack Nicholson
+cc_actor,1998,nm0005212,Ian McKellen
+cc_actor,1999,nm0000128,Russell Crowe
+cc_actor,2000,nm0000128,Russell Crowe
+cc_actor,2001,nm0000128,Russell Crowe
+cc_actor,2002,nm0000197,Jack Nicholson
+cc_actor,2002,nm0000358,Daniel Day-Lewis
+cc_actor,2003,nm0000576,Sean Penn
+cc_actor,2004,nm0004937,Jamie Foxx
+cc_actor,2005,nm0000450,Philip Seymour Hoffman
+cc_actor,2006,nm0001845,Forest Whitaker
+cc_actor,2007,nm0000358,Daniel Day-Lewis
+cc_actor,2008,nm0000576,Sean Penn
+cc_actor,2009,nm0000313,Jeff Bridges
+cc_actor,2010,nm0000147,Colin Firth
+cc_actor,2011,nm0000123,George Clooney
+cc_actor,2012,nm0000358,Daniel Day-Lewis
+cc_actor,2013,nm0000190,Matthew McConaughey
+cc_actor,2014,nm0000474,Michael Keaton
+cc_actor,2015,nm0000138,Leonardo DiCaprio
+cc_actor,2016,nm0000729,Casey Affleck
+cc_actor,2017,nm0000198,Gary Oldman
+cc_actor,2018,nm0000288,Christian Bale
+cc_actor,2019,nm0001618,Joaquin Phoenix
+cc_actor,2020,nm1569276,Chadwick Boseman
+cc_actor,2021,nm0000226,Will Smith
+cc_actor,2022,nm0000409,Brendan Fraser
+cc_actor,2023,nm0316079,Paul Giamatti
+cc_actor,2024,nm0004778,Adrien Brody
+cc_actor,2025,nm3154303,Timothée Chalamet
+cc_actress,1996,nm0000531,Frances McDormand
+cc_actress,1997,nm0000307,Helena Bonham Carter
+cc_actress,1998,nm0000949,Cate Blanchett
+cc_actress,1999,nm0005476,Hilary Swank
+cc_actress,2000,nm0000210,Julia Roberts
+cc_actress,2001,nm0000651,Sissy Spacek
+cc_actress,2002,nm0000194,Julianne Moore
+cc_actress,2003,nm0000234,Charlize Theron
+cc_actress,2004,nm0005476,Hilary Swank
+cc_actress,2005,nm0000702,Reese Witherspoon
+cc_actress,2006,nm0000545,Helen Mirren
+cc_actress,2007,nm0001046,Julie Christie
+cc_actress,2008,nm0000658,Meryl Streep
+cc_actress,2008,nm0004266,Anne Hathaway
+cc_actress,2009,nm0000113,Sandra Bullock
+cc_actress,2009,nm0000658,Meryl Streep
+cc_actress,2010,nm0000204,Natalie Portman
+cc_actress,2011,nm0205626,Viola Davis
+cc_actress,2012,nm1567113,Jessica Chastain
+cc_actress,2013,nm0000949,Cate Blanchett
+cc_actress,2014,nm0000194,Julianne Moore
+cc_actress,2015,nm0488953,Brie Larson
+cc_actress,2016,nm0000204,Natalie Portman
+cc_actress,2017,nm0000531,Frances McDormand
+cc_actress,2018,nm0000335,Glenn Close
+cc_actress,2018,nm3078932,Lady Gaga
+cc_actress,2019,nm0000250,Renée Zellweger
+cc_actress,2020,nm1659547,Carey Mulligan
+cc_actress,2021,nm1567113,Jessica Chastain
+cc_actress,2022,nm0000949,Cate Blanchett
+cc_actress,2023,nm1297015,Emma Stone
+cc_actress,2024,nm0000193,Demi Moore
+cc_actress,2025,nm2976580,Jessie Buckley
+cc_director,1995,nm0000154,Mel Gibson
+cc_director,1996,nm0005237,Anthony Minghella
+cc_director,1997,nm0000116,James Cameron
+cc_director,1998,nm0000229,Steven Spielberg
+cc_director,1999,nm0005222,Sam Mendes
+cc_director,2000,nm0001752,Steven Soderbergh
+cc_director,2001,nm0000165,Ron Howard
+cc_director,2003,nm0001392,Peter Jackson
+cc_director,2004,nm0000217,Martin Scorsese
+cc_director,2005,nm0000487,Ang Lee
+cc_director,2006,nm0000217,Martin Scorsese
+cc_director,2007,nm0001053,Ethan Coen
+cc_director,2007,nm0001054,Joel Coen
+cc_director,2008,nm0000965,Danny Boyle
+cc_director,2009,nm0000941,Kathryn Bigelow
+cc_director,2010,nm0000399,David Fincher
+cc_director,2011,nm0371890,Michel Hazanavicius
+cc_director,2013,nm0190859,Alfonso Cuarón
+cc_director,2014,nm0000500,Richard Linklater
+cc_director,2015,nm0004306,George Miller
+cc_director,2016,nm3227090,Damien Chazelle
+cc_director,2017,nm0868219,Guillermo del Toro
+cc_director,2018,nm0190859,Alfonso Cuarón
+cc_director,2019,nm0005222,Sam Mendes
+cc_director,2019,nm0094435,Bong Joon Ho
+cc_director,2020,nm2125482,Chloé Zhao
+cc_director,2021,nm0001005,Jane Campion
+cc_director,2022,nm3215397,Daniel Scheinert
+cc_director,2022,nm3453283,Daniel Kwan
+cc_director,2023,nm0634240,Christopher Nolan
+cc_director,2025,nm0000759,Paul Thomas Anderson
+cc_film,1995,tt0114388,Sense and Sensibility
+cc_film,1996,tt0116282,Fargo
+cc_film,1997,tt0119488,L.A. Confidential
+cc_film,1998,tt0120815,Saving Private Ryan
+cc_film,1999,tt0169547,American Beauty
+cc_film,2000,tt0172495,Gladiator
+cc_film,2001,tt0268978,A Beautiful Mind
+cc_film,2002,tt0299658,Chicago
+cc_film,2003,tt0167260,The Lord of the Rings: The Return of the King
+cc_film,2004,tt0375063,Sideways
+cc_film,2005,tt0388795,Brokeback Mountain
+cc_film,2006,tt0407887,The Departed
+cc_film,2007,tt0477348,No Country for Old Men
+cc_film,2008,tt1010048,Slumdog Millionaire
+cc_film,2009,tt0887912,The Hurt Locker
+cc_film,2010,tt1285016,The Social Network
+cc_film,2011,tt1655442,The Artist
+cc_film,2012,tt1024648,Argo
+cc_film,2013,tt2024544,12 Years a Slave
+cc_film,2014,tt1065073,Boyhood
+cc_film,2015,tt1895587,Spotlight
+cc_film,2016,tt3783958,La La Land
+cc_film,2017,tt5580390,The Shape of Water
+cc_film,2018,tt6155172,Roma
+cc_film,2019,tt7131622,Once upon a Time...in Hollywood
+cc_film,2020,tt9770150,Nomadland
+cc_film,2021,tt10293406,The Power of the Dog
+cc_film,2022,tt6710474,Everything Everywhere All at Once
+cc_film,2023,tt15398776,Oppenheimer
+cc_film,2024,tt28607951,Anora
+cc_film,2025,tt30144839,One Battle after Another
+cc_supporting_actor,1995,nm0000228,Kevin Spacey
+cc_supporting_actor,1995,nm0000438,Ed Harris
+cc_supporting_actor,1996,nm0000421,Cuba Gooding Jr.
+cc_supporting_actor,1997,nm0000164,Anthony Hopkins
+cc_supporting_actor,1998,nm0000671,Billy Bob Thornton
+cc_supporting_actor,1999,nm0003817,Michael Clarke Duncan
+cc_supporting_actor,2000,nm0001618,Joaquin Phoenix
+cc_supporting_actor,2001,nm0001426,Ben Kingsley
+cc_supporting_actor,2002,nm0177933,Chris Cooper
+cc_supporting_actor,2003,nm0000209,Tim Robbins
+cc_supporting_actor,2004,nm0002006,Thomas Haden Church
+cc_supporting_actor,2005,nm0316079,Paul Giamatti
+cc_supporting_actor,2006,nm0000552,Eddie Murphy
+cc_supporting_actor,2007,nm0000849,Javier Bardem
+cc_supporting_actor,2008,nm0005132,Heath Ledger
+cc_supporting_actor,2009,nm0910607,Christoph Waltz
+cc_supporting_actor,2010,nm0000288,Christian Bale
+cc_supporting_actor,2011,nm0001626,Christopher Plummer
+cc_supporting_actor,2012,nm0000450,Philip Seymour Hoffman
+cc_supporting_actor,2013,nm0001467,Jared Leto
+cc_supporting_actor,2014,nm0799777,J.K. Simmons
+cc_supporting_actor,2015,nm0000230,Sylvester Stallone
+cc_supporting_actor,2016,nm0991810,Mahershala Ali
+cc_supporting_actor,2017,nm0005377,Sam Rockwell
+cc_supporting_actor,2018,nm0991810,Mahershala Ali
+cc_supporting_actor,2019,nm0000093,Brad Pitt
+cc_supporting_actor,2020,nm2257207,Daniel Kaluuya
+cc_supporting_actor,2021,nm1319274,Troy Kotsur
+cc_supporting_actor,2022,nm0702841,Ke Huy Quan
+cc_supporting_actor,2023,nm0000375,Robert Downey Jr.
+cc_supporting_actor,2024,nm0001085,Kieran Culkin
+cc_supporting_actor,2025,nm8624059,Jacob Elordi
+cc_supporting_actress,1995,nm0000227,Mira Sorvino
+cc_supporting_actress,1996,nm0000260,Joan Allen
+cc_supporting_actress,1997,nm0000349,Joan Cusack
+cc_supporting_actress,1998,nm0000870,Kathy Bates
+cc_supporting_actress,1999,nm0001401,Angelina Jolie
+cc_supporting_actress,2000,nm0000531,Frances McDormand
+cc_supporting_actress,2001,nm0000124,Jennifer Connelly
+cc_supporting_actress,2002,nm0001876,Catherine Zeta-Jones
+cc_supporting_actress,2003,nm0000250,Renée Zellweger
+cc_supporting_actress,2004,nm0000515,Virginia Madsen
+cc_supporting_actress,2005,nm0010736,Amy Adams
+cc_supporting_actress,2005,nm0931329,Michelle Williams
+cc_supporting_actress,2006,nm1617685,Jennifer Hudson
+cc_supporting_actress,2007,nm0752407,Amy Ryan
+cc_supporting_actress,2009,nm0594898,Mo'Nique
+cc_supporting_actress,2010,nm0502425,Melissa Leo
+cc_supporting_actress,2011,nm0818055,Octavia Spencer
+cc_supporting_actress,2012,nm0004266,Anne Hathaway
+cc_supporting_actress,2013,nm2143282,Lupita Nyong'o
+cc_supporting_actress,2014,nm0000099,Patricia Arquette
+cc_supporting_actress,2015,nm2539953,Alicia Vikander
+cc_supporting_actress,2016,nm0205626,Viola Davis
+cc_supporting_actress,2017,nm0005049,Allison Janney
+cc_supporting_actress,2018,nm0005093,Regina King
+cc_supporting_actress,2019,nm0000368,Laura Dern
+cc_supporting_actress,2020,nm7210025,Maria Bakalova
+cc_supporting_actress,2021,nm3663196,Ariana DeBose
+cc_supporting_actress,2022,nm0000291,Angela Bassett
+cc_supporting_actress,2023,nm5007768,Da'Vine Joy Randolph
+cc_supporting_actress,2024,nm0757855,Zoe Saldaña
+cc_supporting_actress,2025,nm0001496,Amy Madigan
+dga,1995,tt0112384,Apollo 13
+dga,1996,nm0005237,Anthony Minghella
+dga,1996,tt0116209,The English Patient
+dga,1997,nm0000116,James Cameron
+dga,1997,tt0120338,Titanic
+dga,1998,nm0000229,Steven Spielberg
+dga,1998,tt0120815,Saving Private Ryan
+dga,1999,nm0005222,Sam Mendes
+dga,1999,tt0169547,American Beauty
+dga,2000,nm0000487,Ang Lee
+dga,2000,tt0190332,"Crouching Tiger, Hidden Dragon"
+dga,2001,nm0000165,Ron Howard
+dga,2001,tt0268978,A Beautiful Mind
+dga,2002,nm0551128,Rob Marshall
+dga,2002,tt0299658,Chicago
+dga,2003,nm0001392,Peter Jackson
+dga,2003,tt0167260,The Lord of the Rings: The Return of the King
+dga,2004,nm0000142,Clint Eastwood
+dga,2004,tt0405159,Million Dollar Baby
+dga,2005,nm0000487,Ang Lee
+dga,2005,tt0388795,Brokeback Mountain
+dga,2006,nm0000217,Martin Scorsese
+dga,2006,tt0407887,The Departed
+dga,2007,nm0001053,Ethan Coen
+dga,2007,nm0001054,Joel Coen
+dga,2007,tt0477348,No Country for Old Men
+dga,2008,nm0000965,Danny Boyle
+dga,2008,tt1010048,Slumdog Millionaire
+dga,2009,nm0000941,Kathryn Bigelow
+dga,2009,tt0887912,The Hurt Locker
+dga,2010,nm0393799,Tom Hooper
+dga,2010,tt1504320,The King's Speech
+dga,2011,nm0371890,Michel Hazanavicius
+dga,2011,tt1655442,The Artist
+dga,2012,tt1024648,Argo
+dga,2013,nm0190859,Alfonso Cuarón
+dga,2013,tt1454468,Gravity
+dga,2014,nm0327944,Alejandro G. Iñárritu
+dga,2014,tt2562232,Birdman or (The Unexpected Virtue of Ignorance)
+dga,2015,nm0327944,Alejandro G. Iñárritu
+dga,2015,tt1663202,The Revenant
+dga,2016,nm3227090,Damien Chazelle
+dga,2016,tt3783958,La La Land
+dga,2017,nm0868219,Guillermo del Toro
+dga,2017,tt5580390,The Shape of Water
+dga,2018,nm0190859,Alfonso Cuarón
+dga,2018,tt6155172,Roma
+dga,2019,nm0005222,Sam Mendes
+dga,2019,tt8579674,1917
+dga,2020,nm2125482,Chloé Zhao
+dga,2020,tt9770150,Nomadland
+dga,2021,nm0001005,Jane Campion
+dga,2021,tt10293406,The Power of the Dog
+dga,2022,nm3215397,Daniel Scheinert
+dga,2022,nm3453283,Daniel Kwan
+dga,2022,tt6710474,Everything Everywhere All at Once
+dga,2023,nm0634240,Christopher Nolan
+dga,2023,tt15398776,Oppenheimer
+dga,2024,nm0048918,Sean Baker
+dga,2024,tt28607951,Anora
+dga,2025,nm0000759,Paul Thomas Anderson
+dga,2025,tt30144839,One Battle after Another
+gg_actor_comedy,1996,nm0000129,Tom Cruise
+gg_actor_comedy,1997,nm0000197,Jack Nicholson
+gg_actor_comedy,2003,nm0000195,Bill Murray
+gg_actor_comedy,2004,nm0004937,Jamie Foxx
+gg_actor_comedy,2005,nm0001618,Joaquin Phoenix
+gg_actor_comedy,2007,nm0000136,Johnny Depp
+gg_actor_comedy,2011,nm0241121,Jean Dujardin
+gg_actor_comedy,2012,nm0413168,Hugh Jackman
+gg_actor_comedy,2013,nm0000138,Leonardo DiCaprio
+gg_actor_comedy,2014,nm0000474,Michael Keaton
+gg_actor_comedy,2015,nm0000354,Matt Damon
+gg_actor_comedy,2016,nm0331516,Ryan Gosling
+gg_actor_comedy,2018,nm0000288,Christian Bale
+gg_actor_comedy,2021,nm1940449,Andrew Garfield
+gg_actor_comedy,2022,nm0268199,Colin Farrell
+gg_actor_comedy,2023,nm0316079,Paul Giamatti
+gg_actor_comedy,2024,nm1659221,Sebastian Stan
+gg_actor_comedy,2025,nm3154303,Timothée Chalamet
+gg_actor_drama,1995,nm0000115,Nicolas Cage
+gg_actor_drama,1996,nm0001691,Geoffrey Rush
+gg_actor_drama,1997,nm0001228,Peter Fonda
+gg_actor_drama,1999,nm0000243,Denzel Washington
+gg_actor_drama,2000,nm0000158,Tom Hanks
+gg_actor_drama,2001,nm0000128,Russell Crowe
+gg_actor_drama,2002,nm0000197,Jack Nicholson
+gg_actor_drama,2003,nm0000576,Sean Penn
+gg_actor_drama,2004,nm0000138,Leonardo DiCaprio
+gg_actor_drama,2005,nm0000450,Philip Seymour Hoffman
+gg_actor_drama,2006,nm0001845,Forest Whitaker
+gg_actor_drama,2007,nm0000358,Daniel Day-Lewis
+gg_actor_drama,2008,nm0000620,Mickey Rourke
+gg_actor_drama,2009,nm0000313,Jeff Bridges
+gg_actor_drama,2010,nm0000147,Colin Firth
+gg_actor_drama,2011,nm0000123,George Clooney
+gg_actor_drama,2012,nm0000358,Daniel Day-Lewis
+gg_actor_drama,2013,nm0000190,Matthew McConaughey
+gg_actor_drama,2014,nm1519666,Eddie Redmayne
+gg_actor_drama,2015,nm0000138,Leonardo DiCaprio
+gg_actor_drama,2016,nm0000729,Casey Affleck
+gg_actor_drama,2017,nm0000198,Gary Oldman
+gg_actor_drama,2018,nm1785339,Rami Malek
+gg_actor_drama,2019,nm0001618,Joaquin Phoenix
+gg_actor_drama,2020,nm1569276,Chadwick Boseman
+gg_actor_drama,2021,nm0000226,Will Smith
+gg_actor_drama,2022,nm2581521,Austin Butler
+gg_actor_drama,2023,nm0614165,Cillian Murphy
+gg_actor_drama,2024,nm0004778,Adrien Brody
+gg_actor_drama,2025,nm0609944,Wagner Moura
+gg_actress_comedy,1997,nm0000166,Helen Hunt
+gg_actress_comedy,1998,nm0000569,Gwyneth Paltrow
+gg_actress_comedy,1999,nm0005216,Janet McTeer
+gg_actress_comedy,2001,nm0000173,Nicole Kidman
+gg_actress_comedy,2002,nm0000250,Renée Zellweger
+gg_actress_comedy,2003,nm0000473,Diane Keaton
+gg_actress_comedy,2004,nm0000906,Annette Bening
+gg_actress_comedy,2005,nm0000702,Reese Witherspoon
+gg_actress_comedy,2006,nm0000658,Meryl Streep
+gg_actress_comedy,2007,nm0182839,Marion Cotillard
+gg_actress_comedy,2009,nm0000658,Meryl Streep
+gg_actress_comedy,2010,nm0000906,Annette Bening
+gg_actress_comedy,2011,nm0931329,Michelle Williams
+gg_actress_comedy,2012,nm2225369,Jennifer Lawrence
+gg_actress_comedy,2013,nm0010736,Amy Adams
+gg_actress_comedy,2015,nm2225369,Jennifer Lawrence
+gg_actress_comedy,2016,nm1297015,Emma Stone
+gg_actress_comedy,2017,nm1519680,Saoirse Ronan
+gg_actress_comedy,2018,nm1469236,Olivia Colman
+gg_actress_comedy,2022,nm0000706,Michelle Yeoh
+gg_actress_comedy,2023,nm1297015,Emma Stone
+gg_actress_comedy,2024,nm0000193,Demi Moore
+gg_actress_comedy,2025,nm0126284,Rose Byrne
+gg_actress_drama,1995,nm0000232,Sharon Stone
+gg_actress_drama,1996,nm0000950,Brenda Blethyn
+gg_actress_drama,1997,nm0001132,Judi Dench
+gg_actress_drama,1998,nm0000949,Cate Blanchett
+gg_actress_drama,1999,nm0005476,Hilary Swank
+gg_actress_drama,2000,nm0000210,Julia Roberts
+gg_actress_drama,2001,nm0000651,Sissy Spacek
+gg_actress_drama,2002,nm0000173,Nicole Kidman
+gg_actress_drama,2003,nm0000234,Charlize Theron
+gg_actress_drama,2004,nm0005476,Hilary Swank
+gg_actress_drama,2005,nm0005031,Felicity Huffman
+gg_actress_drama,2006,nm0000545,Helen Mirren
+gg_actress_drama,2007,nm0001046,Julie Christie
+gg_actress_drama,2008,nm0000701,Kate Winslet
+gg_actress_drama,2009,nm0000113,Sandra Bullock
+gg_actress_drama,2010,nm0000204,Natalie Portman
+gg_actress_drama,2011,nm0000658,Meryl Streep
+gg_actress_drama,2012,nm1567113,Jessica Chastain
+gg_actress_drama,2013,nm0000949,Cate Blanchett
+gg_actress_drama,2014,nm0000194,Julianne Moore
+gg_actress_drama,2015,nm0488953,Brie Larson
+gg_actress_drama,2016,nm0001376,Isabelle Huppert
+gg_actress_drama,2017,nm0000531,Frances McDormand
+gg_actress_drama,2018,nm0000335,Glenn Close
+gg_actress_drama,2019,nm0000250,Renée Zellweger
+gg_actress_drama,2020,nm7363531,Andra Day
+gg_actress_drama,2021,nm0000173,Nicole Kidman
+gg_actress_drama,2022,nm0000949,Cate Blanchett
+gg_actress_drama,2023,nm4291409,Lily Gladstone
+gg_actress_drama,2024,nm0868639,Fernanda Torres
+gg_actress_drama,2025,nm2976580,Jessie Buckley
+gg_comedy,1995,tt0112431,Babe
+gg_comedy,1997,tt0119822,As Good as It Gets
+gg_comedy,1998,tt0138097,Shakespeare in Love
+gg_comedy,2001,tt0203009,Moulin Rouge
+gg_comedy,2002,tt0299658,Chicago
+gg_comedy,2003,tt0335266,Lost in Translation
+gg_comedy,2004,tt0375063,Sideways
+gg_comedy,2010,tt0842926,The Kids Are All Right
+gg_comedy,2011,tt1655442,The Artist
+gg_comedy,2012,tt1707386,Les Misérables
+gg_comedy,2013,tt1800241,American Hustle
+gg_comedy,2014,tt2278388,The Grand Budapest Hotel
+gg_comedy,2015,tt3659388,The Martian
+gg_comedy,2016,tt3783958,La La Land
+gg_comedy,2017,tt4925292,Lady Bird
+gg_comedy,2018,tt6966692,Green Book
+gg_comedy,2019,tt7131622,Once upon a Time...in Hollywood
+gg_comedy,2021,tt3581652,West Side Story
+gg_comedy,2022,tt11813216,The Banshees of Inisherin
+gg_comedy,2023,tt14230458,Poor Things
+gg_comedy,2024,tt20221436,Emilia Pérez
+gg_comedy,2025,tt30144839,One Battle after Another
+gg_director,1995,nm0000154,Mel Gibson
+gg_director,1996,nm0001232,Milos Forman
+gg_director,1997,nm0000116,James Cameron
+gg_director,1998,nm0000229,Steven Spielberg
+gg_director,1999,nm0005222,Sam Mendes
+gg_director,2000,nm0000487,Ang Lee
+gg_director,2001,nm0000265,Robert Altman
+gg_director,2002,nm0000217,Martin Scorsese
+gg_director,2003,nm0001392,Peter Jackson
+gg_director,2004,nm0000142,Clint Eastwood
+gg_director,2005,nm0000487,Ang Lee
+gg_director,2006,nm0000217,Martin Scorsese
+gg_director,2007,nm0773603,Julian Schnabel
+gg_director,2008,nm0000965,Danny Boyle
+gg_director,2009,nm0000116,James Cameron
+gg_director,2010,nm0000399,David Fincher
+gg_director,2011,nm0000217,Martin Scorsese
+gg_director,2013,nm0190859,Alfonso Cuarón
+gg_director,2014,nm0000500,Richard Linklater
+gg_director,2015,nm0327944,Alejandro G. Iñárritu
+gg_director,2016,nm3227090,Damien Chazelle
+gg_director,2017,nm0868219,Guillermo del Toro
+gg_director,2018,nm0190859,Alfonso Cuarón
+gg_director,2019,nm0005222,Sam Mendes
+gg_director,2020,nm2125482,Chloé Zhao
+gg_director,2021,nm0001005,Jane Campion
+gg_director,2022,nm0000229,Steven Spielberg
+gg_director,2023,nm0634240,Christopher Nolan
+gg_director,2024,nm1227232,Brady Corbet
+gg_director,2025,nm0000759,Paul Thomas Anderson
+gg_drama,1995,tt0114388,Sense and Sensibility
+gg_drama,1996,tt0116209,The English Patient
+gg_drama,1997,tt0120338,Titanic
+gg_drama,1998,tt0120815,Saving Private Ryan
+gg_drama,1999,tt0169547,American Beauty
+gg_drama,2000,tt0172495,Gladiator
+gg_drama,2001,tt0268978,A Beautiful Mind
+gg_drama,2002,tt0274558,The Hours
+gg_drama,2003,tt0167260,The Lord of the Rings: The Return of the King
+gg_drama,2004,tt0338751,The Aviator
+gg_drama,2005,tt0388795,Brokeback Mountain
+gg_drama,2006,tt0449467,Babel
+gg_drama,2007,tt0783233,Atonement
+gg_drama,2008,tt1010048,Slumdog Millionaire
+gg_drama,2009,tt0499549,Avatar
+gg_drama,2010,tt1285016,The Social Network
+gg_drama,2011,tt1033575,The Descendants
+gg_drama,2012,tt1024648,Argo
+gg_drama,2013,tt2024544,12 Years a Slave
+gg_drama,2014,tt1065073,Boyhood
+gg_drama,2015,tt1663202,The Revenant
+gg_drama,2016,tt4975722,Moonlight
+gg_drama,2017,tt5027774,"Three Billboards outside Ebbing, Missouri"
+gg_drama,2018,tt1727824,Bohemian Rhapsody
+gg_drama,2019,tt8579674,1917
+gg_drama,2020,tt9770150,Nomadland
+gg_drama,2021,tt10293406,The Power of the Dog
+gg_drama,2022,tt14208870,The Fabelmans
+gg_drama,2023,tt15398776,Oppenheimer
+gg_drama,2024,tt8999762,The Brutalist
+gg_drama,2025,tt14905854,Hamnet
+gg_supporting_actor,1995,nm0000093,Brad Pitt
+gg_supporting_actor,1996,nm0001570,Edward Norton
+gg_supporting_actor,1997,nm0000608,Burt Reynolds
+gg_supporting_actor,1998,nm0000438,Ed Harris
+gg_supporting_actor,1999,nm0000129,Tom Cruise
+gg_supporting_actor,2000,nm0001125,Benicio Del Toro
+gg_supporting_actor,2001,nm0000980,Jim Broadbent
+gg_supporting_actor,2002,nm0177933,Chris Cooper
+gg_supporting_actor,2003,nm0000209,Tim Robbins
+gg_supporting_actor,2004,nm0654110,Clive Owen
+gg_supporting_actor,2005,nm0000123,George Clooney
+gg_supporting_actor,2006,nm0000552,Eddie Murphy
+gg_supporting_actor,2007,nm0000849,Javier Bardem
+gg_supporting_actor,2008,nm0005132,Heath Ledger
+gg_supporting_actor,2009,nm0910607,Christoph Waltz
+gg_supporting_actor,2010,nm0000288,Christian Bale
+gg_supporting_actor,2011,nm0001626,Christopher Plummer
+gg_supporting_actor,2012,nm0910607,Christoph Waltz
+gg_supporting_actor,2013,nm0001467,Jared Leto
+gg_supporting_actor,2014,nm0799777,J.K. Simmons
+gg_supporting_actor,2015,nm0000230,Sylvester Stallone
+gg_supporting_actor,2017,nm0005377,Sam Rockwell
+gg_supporting_actor,2018,nm0991810,Mahershala Ali
+gg_supporting_actor,2019,nm0000093,Brad Pitt
+gg_supporting_actor,2020,nm2257207,Daniel Kaluuya
+gg_supporting_actor,2021,nm2240346,Kodi Smit-McPhee
+gg_supporting_actor,2022,nm0702841,Ke Huy Quan
+gg_supporting_actor,2023,nm0000375,Robert Downey Jr.
+gg_supporting_actor,2024,nm0001085,Kieran Culkin
+gg_supporting_actor,2025,nm0001745,Stellan Skarsgård
+gg_supporting_actress,1995,nm0000227,Mira Sorvino
+gg_supporting_actress,1996,nm0000002,Lauren Bacall
+gg_supporting_actress,1997,nm0000107,Kim Basinger
+gg_supporting_actress,1998,nm0001655,Lynn Redgrave
+gg_supporting_actress,1999,nm0001401,Angelina Jolie
+gg_supporting_actress,2000,nm0005028,Kate Hudson
+gg_supporting_actress,2001,nm0000124,Jennifer Connelly
+gg_supporting_actress,2002,nm0000658,Meryl Streep
+gg_supporting_actress,2003,nm0000250,Renée Zellweger
+gg_supporting_actress,2004,nm0000204,Natalie Portman
+gg_supporting_actress,2005,nm0001838,Rachel Weisz
+gg_supporting_actress,2006,nm1617685,Jennifer Hudson
+gg_supporting_actress,2007,nm0000949,Cate Blanchett
+gg_supporting_actress,2009,nm0594898,Mo'Nique
+gg_supporting_actress,2010,nm0502425,Melissa Leo
+gg_supporting_actress,2011,nm0818055,Octavia Spencer
+gg_supporting_actress,2012,nm0004266,Anne Hathaway
+gg_supporting_actress,2013,nm2225369,Jennifer Lawrence
+gg_supporting_actress,2014,nm0000099,Patricia Arquette
+gg_supporting_actress,2015,nm0000701,Kate Winslet
+gg_supporting_actress,2016,nm0205626,Viola Davis
+gg_supporting_actress,2017,nm0005049,Allison Janney
+gg_supporting_actress,2018,nm0005093,Regina King
+gg_supporting_actress,2019,nm0000368,Laura Dern
+gg_supporting_actress,2021,nm3663196,Ariana DeBose
+gg_supporting_actress,2022,nm0000291,Angela Bassett
+gg_supporting_actress,2023,nm5007768,Da'Vine Joy Randolph
+gg_supporting_actress,2024,nm0757855,Zoe Saldaña
+gg_supporting_actress,2025,nm3692520,Teyana Taylor
+pga,1995,tt0112384,Apollo 13
+pga,1996,tt0116209,The English Patient
+pga,1997,tt0120338,Titanic
+pga,1998,tt0120815,Saving Private Ryan
+pga,1999,tt0169547,American Beauty
+pga,2000,tt0172495,Gladiator
+pga,2001,tt0203009,Moulin Rouge
+pga,2002,tt0299658,Chicago
+pga,2003,tt0167260,The Lord of the Rings: The Return of the King
+pga,2004,tt0338751,The Aviator
+pga,2005,tt0388795,Brokeback Mountain
+pga,2006,tt0449059,Little Miss Sunshine
+pga,2007,tt0477348,No Country for Old Men
+pga,2008,tt1010048,Slumdog Millionaire
+pga,2009,tt0887912,The Hurt Locker
+pga,2010,tt1504320,The King's Speech
+pga,2011,tt1655442,The Artist
+pga,2012,tt1024648,Argo
+pga,2013,tt1454468,Gravity
+pga,2013,tt2024544,12 Years a Slave
+pga,2014,tt2562232,Birdman or (The Unexpected Virtue of Ignorance)
+pga,2015,tt1596363,The Big Short
+pga,2016,tt3783958,La La Land
+pga,2017,tt5580390,The Shape of Water
+pga,2018,tt6966692,Green Book
+pga,2019,tt8579674,1917
+pga,2020,tt9770150,Nomadland
+pga,2021,tt10366460,CODA
+pga,2022,tt6710474,Everything Everywhere All at Once
+pga,2023,tt15398776,Oppenheimer
+pga,2024,tt28607951,Anora
+pga,2025,tt30144839,One Battle after Another
+sag_actor,1995,nm0000115,Nicolas Cage
+sag_actor,1996,nm0001691,Geoffrey Rush
+sag_actor,1997,nm0000197,Jack Nicholson
+sag_actor,1998,nm0000905,Roberto Benigni
+sag_actor,1999,nm0000228,Kevin Spacey
+sag_actor,2001,nm0000128,Russell Crowe
+sag_actor,2002,nm0000358,Daniel Day-Lewis
+sag_actor,2003,nm0000136,Johnny Depp
+sag_actor,2004,nm0004937,Jamie Foxx
+sag_actor,2005,nm0000450,Philip Seymour Hoffman
+sag_actor,2006,nm0001845,Forest Whitaker
+sag_actor,2007,nm0000358,Daniel Day-Lewis
+sag_actor,2008,nm0000576,Sean Penn
+sag_actor,2009,nm0000313,Jeff Bridges
+sag_actor,2010,nm0000147,Colin Firth
+sag_actor,2011,nm0241121,Jean Dujardin
+sag_actor,2012,nm0000358,Daniel Day-Lewis
+sag_actor,2013,nm0000190,Matthew McConaughey
+sag_actor,2014,nm1519666,Eddie Redmayne
+sag_actor,2015,nm0000138,Leonardo DiCaprio
+sag_actor,2016,nm0000243,Denzel Washington
+sag_actor,2017,nm0000198,Gary Oldman
+sag_actor,2018,nm1785339,Rami Malek
+sag_actor,2019,nm0001618,Joaquin Phoenix
+sag_actor,2020,nm1569276,Chadwick Boseman
+sag_actor,2021,nm0000226,Will Smith
+sag_actor,2022,nm0000409,Brendan Fraser
+sag_actor,2023,nm0614165,Cillian Murphy
+sag_actor,2024,nm3154303,Timothée Chalamet
+sag_actor,2025,nm0430107,Michael B. Jordan
+sag_actress,1995,nm0000215,Susan Sarandon
+sag_actress,1996,nm0000531,Frances McDormand
+sag_actress,1997,nm0000166,Helen Hunt
+sag_actress,1998,nm0000569,Gwyneth Paltrow
+sag_actress,1999,nm0000906,Annette Bening
+sag_actress,2000,nm0000210,Julia Roberts
+sag_actress,2001,nm0000932,Halle Berry
+sag_actress,2002,nm0000250,Renée Zellweger
+sag_actress,2003,nm0000234,Charlize Theron
+sag_actress,2004,nm0005476,Hilary Swank
+sag_actress,2005,nm0000702,Reese Witherspoon
+sag_actress,2006,nm0000545,Helen Mirren
+sag_actress,2007,nm0001046,Julie Christie
+sag_actress,2008,nm0000658,Meryl Streep
+sag_actress,2009,nm0000113,Sandra Bullock
+sag_actress,2010,nm0000204,Natalie Portman
+sag_actress,2011,nm0205626,Viola Davis
+sag_actress,2012,nm2225369,Jennifer Lawrence
+sag_actress,2013,nm0000949,Cate Blanchett
+sag_actress,2014,nm0000194,Julianne Moore
+sag_actress,2015,nm0488953,Brie Larson
+sag_actress,2016,nm1297015,Emma Stone
+sag_actress,2017,nm0000531,Frances McDormand
+sag_actress,2018,nm0000335,Glenn Close
+sag_actress,2019,nm0000250,Renée Zellweger
+sag_actress,2020,nm0205626,Viola Davis
+sag_actress,2021,nm1567113,Jessica Chastain
+sag_actress,2022,nm0000706,Michelle Yeoh
+sag_actress,2023,nm4291409,Lily Gladstone
+sag_actress,2024,nm0000193,Demi Moore
+sag_actress,2025,nm2976580,Jessie Buckley
+sag_cast,1995,tt0112384,Apollo 13
+sag_cast,1997,tt0119164,The Full Monty
+sag_cast,1998,tt0138097,Shakespeare in Love
+sag_cast,1999,tt0169547,American Beauty
+sag_cast,2000,tt0181865,Traffic
+sag_cast,2001,tt0280707,Gosford Park
+sag_cast,2002,tt0299658,Chicago
+sag_cast,2003,tt0167260,The Lord of the Rings: The Return of the King
+sag_cast,2004,tt0375063,Sideways
+sag_cast,2005,tt0375679,Crash
+sag_cast,2006,tt0449059,Little Miss Sunshine
+sag_cast,2007,tt0477348,No Country for Old Men
+sag_cast,2008,tt1010048,Slumdog Millionaire
+sag_cast,2009,tt0361748,Inglourious Basterds
+sag_cast,2010,tt1504320,The King's Speech
+sag_cast,2011,tt1454029,The Help
+sag_cast,2012,tt1024648,Argo
+sag_cast,2013,tt1800241,American Hustle
+sag_cast,2014,tt2562232,Birdman or (The Unexpected Virtue of Ignorance)
+sag_cast,2015,tt1895587,Spotlight
+sag_cast,2016,tt4846340,Hidden Figures
+sag_cast,2017,tt5027774,"Three Billboards outside Ebbing, Missouri"
+sag_cast,2018,tt1825683,Black Panther
+sag_cast,2019,tt6751668,Parasite
+sag_cast,2020,tt1070874,The Trial of the Chicago 7
+sag_cast,2021,tt10366460,CODA
+sag_cast,2022,tt6710474,Everything Everywhere All at Once
+sag_cast,2023,tt15398776,Oppenheimer
+sag_cast,2024,tt20215234,Conclave
+sag_cast,2025,tt31193180,Sinners
+sag_supporting_actor,1995,nm0000438,Ed Harris
+sag_supporting_actor,1996,nm0000421,Cuba Gooding Jr.
+sag_supporting_actor,1997,nm0000245,Robin Williams
+sag_supporting_actor,1998,nm0000380,Robert Duvall
+sag_supporting_actor,1999,nm0000323,Michael Caine
+sag_supporting_actor,2000,nm0001215,Albert Finney
+sag_supporting_actor,2001,nm0005212,Ian McKellen
+sag_supporting_actor,2002,nm0000686,Christopher Walken
+sag_supporting_actor,2003,nm0000209,Tim Robbins
+sag_supporting_actor,2004,nm0000151,Morgan Freeman
+sag_supporting_actor,2005,nm0316079,Paul Giamatti
+sag_supporting_actor,2006,nm0000552,Eddie Murphy
+sag_supporting_actor,2007,nm0000849,Javier Bardem
+sag_supporting_actor,2008,nm0005132,Heath Ledger
+sag_supporting_actor,2009,nm0910607,Christoph Waltz
+sag_supporting_actor,2010,nm0000288,Christian Bale
+sag_supporting_actor,2011,nm0001626,Christopher Plummer
+sag_supporting_actor,2012,nm0000169,Tommy Lee Jones
+sag_supporting_actor,2013,nm0001467,Jared Leto
+sag_supporting_actor,2014,nm0799777,J.K. Simmons
+sag_supporting_actor,2016,nm0991810,Mahershala Ali
+sag_supporting_actor,2017,nm0005377,Sam Rockwell
+sag_supporting_actor,2018,nm0991810,Mahershala Ali
+sag_supporting_actor,2019,nm0000093,Brad Pitt
+sag_supporting_actor,2020,nm2257207,Daniel Kaluuya
+sag_supporting_actor,2021,nm1319274,Troy Kotsur
+sag_supporting_actor,2022,nm0702841,Ke Huy Quan
+sag_supporting_actor,2023,nm0000375,Robert Downey Jr.
+sag_supporting_actor,2024,nm0001085,Kieran Culkin
+sag_supporting_actor,2025,nm0000576,Sean Penn
+sag_supporting_actress,1995,nm0000701,Kate Winslet
+sag_supporting_actress,1996,nm0000002,Lauren Bacall
+sag_supporting_actress,1997,nm0000107,Kim Basinger
+sag_supporting_actress,1997,nm0001784,Gloria Stuart
+sag_supporting_actress,1998,nm0000870,Kathy Bates
+sag_supporting_actress,1999,nm0001401,Angelina Jolie
+sag_supporting_actress,2000,nm0001132,Judi Dench
+sag_supporting_actress,2001,nm0000545,Helen Mirren
+sag_supporting_actress,2002,nm0001876,Catherine Zeta-Jones
+sag_supporting_actress,2003,nm0000250,Renée Zellweger
+sag_supporting_actress,2004,nm0000949,Cate Blanchett
+sag_supporting_actress,2005,nm0001838,Rachel Weisz
+sag_supporting_actress,2006,nm1617685,Jennifer Hudson
+sag_supporting_actress,2007,nm0002039,Ruby Dee
+sag_supporting_actress,2009,nm0594898,Mo'Nique
+sag_supporting_actress,2010,nm0502425,Melissa Leo
+sag_supporting_actress,2011,nm0818055,Octavia Spencer
+sag_supporting_actress,2012,nm0004266,Anne Hathaway
+sag_supporting_actress,2013,nm2143282,Lupita Nyong'o
+sag_supporting_actress,2014,nm0000099,Patricia Arquette
+sag_supporting_actress,2015,nm2539953,Alicia Vikander
+sag_supporting_actress,2016,nm0205626,Viola Davis
+sag_supporting_actress,2017,nm0005049,Allison Janney
+sag_supporting_actress,2019,nm0000368,Laura Dern
+sag_supporting_actress,2020,nm0950926,Yuh-Jung Youn
+sag_supporting_actress,2021,nm3663196,Ariana DeBose
+sag_supporting_actress,2022,nm0000130,Jamie Lee Curtis
+sag_supporting_actress,2023,nm5007768,Da'Vine Joy Randolph
+sag_supporting_actress,2024,nm0757855,Zoe Saldaña
+sag_supporting_actress,2025,nm0001496,Amy Madigan

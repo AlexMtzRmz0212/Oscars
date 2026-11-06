@@ -1,0 +1,23 @@
+.curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.curtain-panel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50.5%;
+  display: flex;
+}
+
+.curtain-panel-left {
+  left: 0;
+}
+
+.curtain-panel-right {
+  right: 0;
+}

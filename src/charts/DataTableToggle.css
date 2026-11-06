@@ -1,0 +1,33 @@
+.data-table summary {
+  cursor: pointer;
+  width: fit-content;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.data-table-scroll {
+  margin-top: 16px;
+  max-height: 60svh;
+  overflow: auto;
+}
+
+.data-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.data-table th,
+.data-table td {
+  padding: 8px 16px 8px 0;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--data-empty);
+}
+
+.data-table th {
+  position: sticky;
+  top: 0;
+  background: var(--velvet-black);
+  font-weight: 500;
+}

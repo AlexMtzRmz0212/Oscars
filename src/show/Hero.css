@@ -1,0 +1,121 @@
+.hero {
+  position: relative;
+  height: 100svh;
+  min-height: 620px;
+  overflow: hidden;
+  background: var(--oxblood);
+  perspective: 1400px;
+}
+
+/* A hard-edged pool of light, the way a followspot really falls. */
+.hero-spotlight {
+  position: absolute;
+  top: -260px;
+  left: -260px;
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  background: var(--oxblood-lit);
+  pointer-events: none;
+}
+
+.hero-action {
+  background: var(--ivory);
+  color: var(--ink);
+}
+
+.hero-action:hover {
+  background: var(--gold-bright);
+}
+
+/* The envelope is cut off by the bottom of the screen, so the page visibly carries on. */
+.envelope {
+  --flap: clamp(120px, 15svh, 170px);
+  --top: clamp(84px, 11svh, 104px);
+  position: absolute;
+  top: var(--top);
+  left: 0;
+  right: 0;
+  width: min(760px, calc(100% - 24px));
+  height: 130%;
+  margin-inline: auto;
+  transform-style: preserve-3d;
+  background: var(--gold);
+  color: var(--ink);
+}
+
+.envelope-flap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--flap);
+  transform-origin: top center;
+  z-index: 2;
+}
+
+.envelope-flap::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--gold-deep);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.envelope-seal {
+  position: absolute;
+  left: 50%;
+  bottom: -22px;
+  width: 44px;
+  height: 44px;
+  margin-left: -22px;
+  border-radius: 50%;
+  background: var(--curtain);
+}
+
+/* Centred within the part of the envelope that shows on screen, at any screen shape. */
+.envelope-face {
+  --visible: calc(100svh - var(--top));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: max(var(--visible), 520px);
+  padding: calc(var(--flap) + 24px) clamp(16px, 5vw, 56px) 24px;
+  text-align: center;
+}
+
+.envelope-face h1 {
+  font-size: clamp(5.25rem, min(30vw, 21svh), 10.5rem);
+  letter-spacing: -0.03em;
+}
+
+.envelope-sub {
+  margin-top: clamp(16px, 2.6svh, 28px);
+  font-size: var(--step-lead);
+  line-height: 1.25;
+}
+
+.envelope-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px 14px;
+  min-height: 1.5em;
+  margin-top: 14px;
+  font-size: var(--step-body);
+}
+
+@media (max-width: 560px) {
+  .envelope {
+    --top: 118px;
+    --flap: clamp(90px, 12svh, 130px);
+  }
+}
+
+.diamond {
+  width: 10px;
+  height: 10px;
+  background: var(--curtain);
+  transform: rotate(45deg);
+}

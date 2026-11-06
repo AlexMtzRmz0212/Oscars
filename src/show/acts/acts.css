@@ -1,0 +1,375 @@
+/* Act III: the wall. Sized so the wall and its era bars both fit on one screen. */
+.wall {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  gap: 2px;
+  max-width: calc((100svh - 240px) / 0.76);
+}
+
+.wall-figure .era-bars {
+  max-width: calc((100svh - 240px) / 0.76);
+}
+
+.wall-tile {
+  display: block;
+  aspect-ratio: 2 / 3;
+  background: var(--data-empty);
+  transition: opacity 360ms ease, transform 160ms ease;
+}
+
+.wall-tile img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.wall-tile-dim {
+  opacity: 0.14;
+}
+
+.wall-tile:hover {
+  transform: scale(1.12);
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 900px) {
+  .wall,
+  .wall-figure .era-bars {
+    max-width: calc((46svh - 90px) / 0.76);
+    margin-inline: auto;
+  }
+}
+
+/* Act V: the winner's rank. */
+.rank-bars {
+  display: grid;
+  gap: clamp(2px, 0.8svh, 8px);
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.rank-bars li {
+  display: grid;
+  grid-template-columns: 2.6rem 1fr;
+  align-items: center;
+  gap: 8px;
+}
+
+.rank-dim .rank-fill {
+  opacity: 0.3;
+}
+
+.rank-label {
+  color: var(--muted);
+  font-size: var(--step-small);
+}
+
+.rank-track {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  /* Leaves room for the value at the tip of the longest bar. */
+  padding-right: 2.5rem;
+}
+
+.rank-fill {
+  display: block;
+  height: clamp(12px, 2.6svh, 24px);
+  background: var(--data-nominated);
+  border-radius: 0 var(--radius-data) var(--radius-data) 0;
+  transition: width 420ms cubic-bezier(0.2, 0.8, 0.2, 1), opacity 360ms ease;
+}
+
+.rank-fill-top {
+  background: var(--data-won);
+}
+
+.rank-value {
+  position: relative;
+  font-size: var(--step-body);
+}
+
+.rank-chance {
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  width: 2px;
+  background: var(--ivory);
+  transform: translateX(-1px);
+  margin-right: 2.5rem;
+}
+
+.rank-chance > span {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: var(--step-small);
+}
+
+.rank-bars li:first-child {
+  margin-top: 1.4rem;
+}
+
+/* Act VI: a printed ledger and a language card. */
+.ledger {
+  margin-top: var(--section-gap);
+  padding: clamp(24px, 4vw, 56px);
+  background: var(--ivory);
+  color: var(--ink);
+  border-top: 5px dotted var(--velvet-black);
+}
+
+.ledger-intro {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 16px;
+  align-items: end;
+}
+
+.ledger-intro h3 {
+  grid-column: 1 / span 7;
+  font-size: var(--step-head);
+}
+
+.ledger-intro p {
+  grid-column: 8 / -1;
+}
+
+.ledger-scroll {
+  margin-top: clamp(24px, 3vw, 40px);
+  overflow-x: auto;
+}
+
+.ledger table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.ledger th,
+.ledger td {
+  padding: 10px 12px 10px 0;
+  text-align: right;
+  font-weight: 400;
+  border-bottom: 1px solid rgb(23 16 15 / 0.18);
+  white-space: nowrap;
+}
+
+.ledger thead th {
+  font-size: var(--step-small);
+  color: var(--ink-soft);
+}
+
+.ledger tbody th {
+  text-align: left;
+  font-family: var(--font-display);
+  font-size: var(--step-lead);
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.ledger td {
+  font-size: var(--step-lead);
+}
+
+.ledger-note {
+  margin-top: 16px;
+  color: var(--ink-soft);
+  max-width: 48em;
+}
+
+.language {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 16px;
+  align-items: center;
+  margin-top: var(--section-gap);
+}
+
+.language-text {
+  grid-column: 1 / span 6;
+}
+
+.language-text h3 {
+  font-size: var(--step-head);
+}
+
+.language-text p {
+  margin-top: 16px;
+  font-size: var(--step-lead);
+  line-height: 1.3;
+}
+
+.language-posters {
+  grid-column: 7 / -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.language-posters img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  background: var(--data-empty);
+}
+
+/* Act VII: the board. */
+.board {
+  margin-top: var(--section-gap);
+}
+
+.board h3 {
+  font-size: var(--step-head);
+  margin-bottom: clamp(24px, 3vw, 40px);
+}
+
+.board-films {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.board-films a {
+  display: grid;
+  align-content: start;
+  gap: 2px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.board-films a:hover .board-name {
+  text-decoration: underline;
+}
+
+.board-films img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  background: var(--data-empty);
+  margin-bottom: 6px;
+}
+
+.board-score {
+  font-family: var(--font-display);
+  font-size: var(--step-lead);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.board-people {
+  columns: 2 320px;
+  column-gap: 32px;
+  margin: clamp(32px, 4vw, 56px) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.board-people li {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding-block: 7px;
+  break-inside: avoid;
+}
+
+.board-people .board-score {
+  flex: none;
+  width: 5.2rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .board-films {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .ledger-intro,
+  .language {
+    display: block;
+  }
+
+  .ledger-intro p {
+    margin-top: 16px;
+  }
+
+  .language-posters {
+    margin-top: 24px;
+    max-width: 420px;
+  }
+
+  /* Tight bars leave room for the era columns below them on a pinned chart. */
+  .rank-bars {
+    gap: 2px;
+  }
+
+  .rank-fill {
+    height: 11px;
+  }
+
+  .rank-value {
+    font-size: var(--step-small);
+    line-height: 1.1;
+  }
+}
+
+/* Each craft becomes its own row of five values, so no era has to scroll out of sight. */
+@media (max-width: 600px) {
+  .ledger-scroll {
+    overflow-x: visible;
+  }
+
+  .ledger table,
+  .ledger thead,
+  .ledger tbody {
+    display: block;
+  }
+
+  .ledger tr {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-bottom: 1px solid rgb(23 16 15 / 0.18);
+    padding-block: 8px;
+  }
+
+  .ledger th,
+  .ledger td {
+    padding: 0;
+    border: 0;
+    text-align: left;
+  }
+
+  .ledger thead th:first-child {
+    display: none;
+  }
+
+  .ledger thead th {
+    white-space: normal;
+  }
+
+  .ledger tbody th {
+    grid-column: 1 / -1;
+    margin-bottom: 4px;
+  }
+
+  .ledger td {
+    font-size: var(--step-body);
+  }
+}

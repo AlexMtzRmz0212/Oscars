@@ -1,0 +1,177 @@
+.plan-figure {
+  margin: 0;
+  container-type: inline-size;
+  width: 100%;
+}
+
+.plan-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 18px;
+  justify-content: flex-end;
+  margin-bottom: 14px;
+  font-size: var(--step-small);
+  color: var(--ivory);
+}
+
+.legend-key,
+.legend-sizes,
+.legend-size {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-sizes {
+  gap: 10px;
+}
+
+.legend-key i {
+  width: 14px;
+  height: 14px;
+  border-radius: var(--radius-data) var(--radius-data) 1px 1px;
+}
+
+.legend-size i {
+  width: calc(var(--size) * 24px);
+  height: calc(var(--size) * 24px);
+  background: var(--data-nominated);
+  border-radius: var(--radius-data) var(--radius-data) 1px 1px;
+}
+
+.plan {
+  --axis: 2.1rem;
+  --cell: min(calc((100cqw - var(--axis)) / 16), calc((100svh - 15rem) / 12));
+  position: relative;
+  display: grid;
+  grid-template-columns: var(--axis) repeat(16, var(--cell));
+  grid-template-rows: 1.6rem repeat(12, var(--cell)) 1.6rem 1.5rem;
+  width: fit-content;
+  /* When height limits the seats, the plan still closes on the page's right margin. */
+  margin-left: auto;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.plan-tick {
+  display: grid;
+  place-items: center;
+  font-size: var(--step-small);
+  color: var(--muted);
+}
+
+.plan-axis-title {
+  font-size: var(--step-small);
+  color: var(--ivory);
+}
+
+.plan-axis-title-y {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+  align-self: center;
+}
+
+.plan-axis-title-x {
+  grid-column: 2 / -1;
+  text-align: center;
+  align-self: end;
+}
+
+.seat-empty {
+  display: grid;
+  place-items: center;
+}
+
+.seat-empty::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--data-empty);
+}
+
+.seat {
+  display: grid;
+  place-items: center;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  border-radius: var(--radius-data);
+  touch-action: manipulation;
+}
+
+.seat i {
+  display: block;
+  width: calc(var(--size) * 90%);
+  height: calc(var(--size) * 90%);
+  border-radius: var(--radius-data) var(--radius-data) 1px 1px;
+  transition: opacity 360ms ease, transform 160ms ease;
+}
+
+.seat-won i {
+  background: var(--data-won);
+}
+
+.seat-nominated i {
+  background: var(--data-nominated);
+}
+
+.seat-dim i {
+  opacity: 0.16;
+}
+
+.seat:hover i,
+.seat:focus-visible i {
+  opacity: 1;
+  transform: scale(1.14);
+}
+
+.seat-label {
+  position: relative;
+  pointer-events: none;
+  font-size: var(--step-body);
+  line-height: 1.1;
+  color: var(--ivory);
+}
+
+.seat-label > span {
+  position: absolute;
+  white-space: nowrap;
+}
+
+.seat-label-left > span {
+  right: calc(100% + 6px);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.seat-label-above > span {
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.seat-label-above-right > span {
+  bottom: 100%;
+  right: 0;
+}
+
+@media (max-width: 900px) {
+  .plan {
+    --axis: 1.5rem;
+    --cell: min(calc((100cqw - var(--axis)) / 16), calc((48svh - 6.5rem) / 12));
+  }
+}
+
+/* On a phone the seats are too small to carry names, and the slip below says them. */
+@media (max-width: 760px) {
+  .seat-label {
+    display: none;
+  }
+
+  .legend-sizes {
+    gap: 7px;
+  }
+}

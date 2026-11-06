@@ -1,0 +1,202 @@
+[
+ {
+  "ceremony": 6,
+  "category": "BEST PICTURE",
+  "winner": "Cavalcade"
+ },
+ {
+  "ceremony": 6,
+  "category": "DIRECTING",
+  "winner": "Frank Lloyd"
+ },
+ {
+  "ceremony": 6,
+  "category": "ACTOR IN A LEADING ROLE",
+  "winner": "Charles Laughton"
+ },
+ {
+  "ceremony": 6,
+  "category": "ACTRESS IN A LEADING ROLE",
+  "winner": "Katharine Hepburn"
+ },
+ {
+  "ceremony": 8,
+  "category": "BEST PICTURE",
+  "winner": "Mutiny on the Bounty"
+ },
+ {
+  "ceremony": 8,
+  "category": "DIRECTING",
+  "winner": "John Ford"
+ },
+ {
+  "ceremony": 8,
+  "category": "ACTOR IN A LEADING ROLE",
+  "winner": "Victor McLaglen"
+ },
+ {
+  "ceremony": 8,
+  "category": "ACTRESS IN A LEADING ROLE",
+  "winner": "Bette Davis"
+ },
+ {
+  "ceremony": 37,
+  "category": "BEST PICTURE",
+  "winner": "My Fair Lady"
+ },
+ {
+  "ceremony": 37,
+  "category": "DIRECTING",
+  "winner": "George Cukor"
+ },
+ {
+  "ceremony": 37,
+  "category": "ACTOR IN A LEADING ROLE",
+  "winner": "Rex Harrison"
+ },
+ {
+  "ceremony": 37,
+  "category": "ACTRESS IN A LEADING ROLE",
+  "winner": "Julie Andrews"
+ },
+ {
+  "ceremony": 46,
+  "category": "BEST PICTURE",
+  "winner": "The Sting"
+ },
+ {
+  "ceremony": 46,
+  "category": "DIRECTING",
+  "winner": "George Roy Hill"
+ },
+ {
+  "ceremony": 46,
+  "category": "ACTOR IN A LEADING ROLE",
+  "winner": "Jack Lemmon"
+ },
+ {
+  "ceremony": 46,
+  "category": "ACTRESS IN A LEADING ROLE",
+  "winner": "Glenda Jackson"
+ },
+ {
+  "ceremony": 54,
+  "category": "BEST PICTURE",
+  "winner": "Chariots of Fire"
+ },
+ {
+  "ceremony": 54,
+  "category": "DIRECTING",
+  "winner": "Warren Beatty"
+ },
+ {
+  "ceremony": 54,
+  "category": "ACTOR IN A LEADING ROLE",
+  "winner": "Henry Fonda"
+ },
+ {
+  "ceremony": 54,
+  "category": "ACTRESS IN A LEADING ROLE",
+  "winner": "Katharine Hepburn"
+ },
+ {
+  "ceremony": 61,
+  "category": "BEST PICTURE",
+  "winner": "Rain Man"
+ },
+ {
+  "ceremony": 61,
+  "category": "DIRECTING",
+  "winner": "Barry Levinson"
+ },
+ {
+  "ceremony": 61,
+  "category": "ACTOR IN A LEADING ROLE",
+  "winner": "Dustin Hoffman"
+ },
+ {
+  "ceremony": 61,
+  "category": "ACTRESS IN A LEADING ROLE",
+  "winner": "Jodie Foster"
+ },
+ {
+  "ceremony": 72,
+  "category": "BEST PICTURE",
+  "winner": "American Beauty"
+ },
+ {
+  "ceremony": 72,
+  "category": "DIRECTING",
+  "winner": "Sam Mendes"
+ },
+ {
+  "ceremony": 72,
+  "category": "ACTOR IN A LEADING ROLE",
+  "winner": "Kevin Spacey"
+ },
+ {
+  "ceremony": 72,
+  "category": "ACTRESS IN A LEADING ROLE",
+  "winner": "Hilary Swank"
+ },
+ {
+  "ceremony": 74,
+  "category": "BEST PICTURE",
+  "winner": "A Beautiful Mind"
+ },
+ {
+  "ceremony": 74,
+  "category": "DIRECTING",
+  "winner": "Ron Howard"
+ },
+ {
+  "ceremony": 74,
+  "category": "ACTOR IN A LEADING ROLE",
+  "winner": "Denzel Washington"
+ },
+ {
+  "ceremony": 74,
+  "category": "ACTRESS IN A LEADING ROLE",
+  "winner": "Halle Berry"
+ },
+ {
+  "ceremony": 87,
+  "category": "BEST PICTURE",
+  "winner": "Birdman or (The Unexpected Virtue of Ignorance)"
+ },
+ {
+  "ceremony": 87,
+  "category": "DIRECTING",
+  "winner": "Alejandro G. Iñárritu"
+ },
+ {
+  "ceremony": 87,
+  "category": "ACTOR IN A LEADING ROLE",
+  "winner": "Eddie Redmayne"
+ },
+ {
+  "ceremony": 87,
+  "category": "ACTRESS IN A LEADING ROLE",
+  "winner": "Julianne Moore"
+ },
+ {
+  "ceremony": 94,
+  "category": "BEST PICTURE",
+  "winner": "CODA"
+ },
+ {
+  "ceremony": 94,
+  "category": "DIRECTING",
+  "winner": "Jane Campion"
+ },
+ {
+  "ceremony": 94,
+  "category": "ACTOR IN A LEADING ROLE",
+  "winner": "Will Smith"
+ },
+ {
+  "ceremony": 94,
+  "category": "ACTRESS IN A LEADING ROLE",
+  "winner": "Jessica Chastain"
+ }
+]

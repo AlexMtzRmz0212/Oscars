@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--curtain);
+  color: var(--ivory);
+  font-family: var(--font-text);
+  font-size: var(--step-body);
+  line-height: 1.45;
+  font-variant-numeric: lining-nums;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  line-height: 0.85;
+  text-wrap: balance;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+a,
+button {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus, var(--gold-bright));
+  outline-offset: 2px;
+}
+
+/* Gold can't be seen on paper or on the envelope, so light surfaces get a dark ring. */
+.sheet,
+.slip,
+.ledger,
+.programme-sheet,
+.search-sheet,
+.seat-card,
+.year-card,
+.encore-form input,
+.field-ivory,
+.field-gold,
+.envelope,
+.hero-action {
+  --focus: var(--curtain);
+}
+
+::selection {
+  background: var(--gold-bright);
+  color: var(--ink);
+}
+
+.button {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  background: var(--ink);
+  color: var(--ivory);
+  border: 0;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 160ms ease, background-color 160ms ease;
+}
+
+.button:hover {
+  background: var(--curtain);
+  transform: translateY(-2px);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 60;
+  padding: 8px 14px;
+  background: var(--ivory);
+  color: var(--ink);
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: none;
+}
+
+.page-loading {
+  min-height: 100svh;
+  background: var(--velvet-black);
+}
+
+.born-card {
+  max-width: 760px;
+  color: var(--ivory);
+  font-size: var(--step-body);
+  line-height: 1.45;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    transition-duration: 1ms !important;
+  }
+}

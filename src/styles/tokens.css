@@ -1,0 +1,46 @@
+:root {
+  color-scheme: dark;
+
+  /* Fields */
+  --velvet-black: #0e0a0b;
+  --oxblood: #3b0a12;
+  --oxblood-lit: #4d101b;
+  --curtain: #6e1423;
+  --curtain-deep: #5a1020;
+  --curtain-lit: #7c1a2b;
+
+  /* The envelope */
+  --gold: #c9a24b;
+  --gold-deep: #b8923f;
+  --gold-bright: #e8cf8a;
+
+  /* Paper and ink */
+  --ivory: #f3ebdd;
+  --muted: #a89c8c;
+  --ink: #17100f;
+  --ink-soft: #5c4f47;
+
+  /* Data: gold always means won, dim ivory always means nominated. Red is never data. */
+  --data-won: #d4af5a;
+  --data-nominated: #8f867a;
+  --data-empty: #2a2224;
+  /* A neutral ramp for counts, where gold's "won" would be wrong. */
+  --data-count-1: #6f675e;
+  --data-count-2: #a89c8c;
+  --data-count-3: #f3ebdd;
+
+  /* Type */
+  --font-display: "Bebas Neue", "Arial Narrow", sans-serif;
+  --font-text: "EB Garamond", Georgia, serif;
+  --step-small: clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
+  --step-body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+  --step-lead: clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem);
+  --step-title: clamp(2.25rem, 1.6rem + 2.4vw, 3.5rem);
+  --step-head: clamp(2.5rem, 1.2rem + 5vw, 5.5rem);
+  --step-marquee: clamp(4rem, 11.7vw, 10.5rem);
+
+  /* Frame */
+  --margin: clamp(16px, 2.2vw, 32px);
+  --section-gap: clamp(96px, 12vw, 180px);
+  --radius-data: 4px;
+}

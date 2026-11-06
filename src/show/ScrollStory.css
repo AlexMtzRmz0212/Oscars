@@ -1,0 +1,112 @@
+.story {
+  display: grid;
+  grid-template-columns: minmax(280px, 4fr) 8fr;
+  column-gap: clamp(24px, 4vw, 64px);
+}
+
+.story-stage {
+  grid-column: 2;
+  grid-row: 1;
+  position: sticky;
+  top: 0;
+  align-self: start;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+
+.story-slips {
+  grid-column: 1;
+  grid-row: 1;
+  /* The first slip reaches the trigger line only once the chart has pinned. */
+  padding-block: 78svh 50svh;
+  display: grid;
+  gap: 62svh;
+}
+
+.slip {
+  position: relative;
+  padding: 26px 26px 30px;
+  background: var(--ivory);
+  color: var(--ink);
+  border-top: 5px dotted var(--velvet-black);
+  transition: opacity 320ms ease;
+}
+
+.slip[data-active="false"] {
+  opacity: 0.6;
+}
+
+.slip-holder:nth-child(2n) .slip {
+  rotate: -0.8deg;
+}
+
+.slip-holder:nth-child(3n) .slip {
+  rotate: 0.7deg;
+}
+
+.slip h3 {
+  font-size: var(--step-title);
+  line-height: 0.92;
+}
+
+.slip p {
+  margin-top: 12px;
+}
+
+.slip-plates {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  max-width: 400px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slip-plates-dense {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.slip-plates img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  background: var(--ink-soft);
+}
+
+/* Below this the two columns get cramped, so the chart pins to the top and slips pass beneath. */
+@media (max-width: 900px) {
+  .story {
+    display: block;
+    margin-inline: calc(var(--margin) * -1);
+  }
+
+  .story-stage {
+    z-index: 2;
+    min-height: 0;
+    display: block;
+    padding: 12px var(--margin) 8px;
+    background: var(--velvet-black);
+  }
+
+  .story-slips {
+    padding: 44svh var(--margin) 50svh;
+    gap: 60svh;
+  }
+
+  .slip {
+    padding: 20px 20px 24px;
+  }
+}
+
+/* On very short screens a slip with plates can't fit below the pinned chart. */
+@media (max-width: 900px) and (max-height: 700px) {
+  .slip-plates {
+    display: none;
+  }
+}

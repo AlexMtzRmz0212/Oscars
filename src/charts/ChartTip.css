@@ -1,0 +1,82 @@
+.chart-tip {
+  position: absolute;
+  z-index: 5;
+  transform: translate(-50%, calc(-100% - 10px));
+  display: grid;
+  width: max-content;
+  max-width: 170px;
+  padding: 6px 10px;
+  background: var(--ivory);
+  color: var(--ink);
+  font-size: var(--step-small);
+  line-height: 1.25;
+  pointer-events: none;
+}
+
+.chart-tip strong {
+  font-weight: 500;
+  font-size: var(--step-body);
+}
+
+/* Shared axis text and chart frame. */
+.chart-figure {
+  margin: 0;
+  width: 100%;
+  min-width: 0;
+}
+
+.chart {
+  position: relative;
+  width: 100%;
+  touch-action: pan-y;
+}
+
+.chart svg {
+  display: block;
+  overflow: visible;
+}
+
+.chart-text {
+  font-family: var(--font-text);
+  font-size: 13px;
+  fill: var(--muted);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+.chart-text-strong {
+  fill: var(--ivory);
+  font-size: 15px;
+}
+
+.chart-grid {
+  stroke: var(--data-empty);
+  stroke-width: 1;
+}
+
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 18px;
+  margin-bottom: 12px;
+  font-size: var(--step-small);
+}
+
+.chart-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.chart-legend i {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.chart-note {
+  margin-top: 10px;
+  font-size: var(--step-small);
+  color: var(--muted);
+}
