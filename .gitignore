@@ -194,3 +194,5 @@ public/data/
 
 # The Python lib/ rule above would otherwise hide the site's source
 !src/lib/
+.vercel
+.env*
